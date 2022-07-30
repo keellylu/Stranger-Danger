@@ -407,51 +407,51 @@ Week 1
 -------------------------------------------------------------------------------
 **1. Set up state machine skeleton, although majority of the states will be placeholder states without their full functionality.**
 
-Demonstrate going from the start up state to the setup instructions, settings, and active use state; from the active use state, 
+    Demonstrate going from the start up state to the setup instructions, settings, and active use state; from the active use state, 
 go to each of the three tiers and back, and show logging off - returning to the start screen - as well. 
 
 **2. Create the Python function for sending emails (to the emergency contact stored in the user info database) upon POST request.**
 
-Make a request through Postman and show the received email in our inbox with a hardcoded message.
+    Make a request through Postman and show the received email in our inbox with a hardcoded message.
 
 **Set up the database for storing user information and create an HTML form that also allows users to submit/update their preferences and adds it to the database.**
 
-Demonstrate the ESP32 sending a POST request to a Python file containing the user's username, email recipient, email body, and keyword when we first enter the active usage state; if the username is already in the database, we want to replace the current info we have on the user with the new info; also show entering the information into the HTML form and then printing the results of the database afterwards.
+    Demonstrate the ESP32 sending a POST request to a Python file containing the user's username, email recipient, email body, and keyword when we first enter the active usage state; if the username is already in the database, we want to replace the current info we have on the user with the new info; also show entering the information into the HTML form and then printing the results of the database afterwards.
 
 **3. Create a functioning "keyboard" display for the LCD that allows the user to enter in their information on the ESP32.**
 
-Show the user entering in all of their information - username, email recipient, email body, keyword - before sending the information up to the database.
+    Show the user entering in all of their information - username, email recipient, email body, keyword - before sending the information up to the database.
 
 **4. Be able to flash the LED light on the device as is necessary for the first tier of the alarm response.**
 
-Complete the first tier system with siren and flashing lights. Demonstrate the flashing of the LED in the SOS Morse Code pattern – we will test both the LED on the ESP32 itself and the LED given in the Smart Lamp design exercise to determine which is brighter/better at attracting people’s attention.
+    Complete the first tier system with siren and flashing lights. Demonstrate the flashing of the LED in the SOS Morse Code pattern – we will test both the LED on the ESP32 itself and the LED given in the Smart Lamp design exercise to determine which is brighter/better at attracting people’s attention.
 
 **5. Find all necessary hardware components and their sellers.**
 
-Upload the information to the spreadsheet so that we can get all of our needed parts. There is no video associated with this deliverable. 
+    Upload the information to the spreadsheet so that we can get all of our needed parts. There is no video associated with this deliverable. 
 
 **6. Create the AMBER alert-like database.**
 
-Show posting to the AMBER alert database via Postman and, when doing a get request from it again via Postman, the database should have the information of the people who posted.
+    Show posting to the AMBER alert database via Postman and, when doing a get request from it again via Postman, the database should have the information of the people who posted.
 
 Week 2
 -------------------------------------------------------------------------------
 
 **1. Attach the heart rate sensor and implement the capability to automatically bring the user to the AMBER alert posting state from the active use state when the heart rate passes a certain threshold.**
 
-Show the heart rate sensor measuring the user's heart rate and printing the heart rate values in the serial monitor, and, when the user's heart rate passes the specified threshold, the ESP32 now shows that it has moved to the AMBER alert state.
+    Show the heart rate sensor measuring the user's heart rate and printing the heart rate values in the serial monitor, and, when the user's heart rate passes the specified threshold, the ESP32 now shows that it has moved to the AMBER alert state.
 
 **2. Plan and record the audios necessary for simulating a phone call between two parties and upload these audios to the MP3 players.**
 
-Using the MP3 player's speaker, play two of the recorded audios, and show which audios correspond to which spoken keywords. 
+    Using the MP3 player's speaker, play two of the recorded audios, and show which audios correspond to which spoken keywords. 
 
 **3. Have the ESP32 record what the user is saying, and, through Google's text-to-speech API, retrieve the recorded message before playing the appropriate message response and sending an email to the specified recipient if needed.**
 
-Switch to Tier 2 and show saying one or two of the keywords that will trigger specific audio responses, as well as the email sending keyword, and show the received email.
+    Switch to Tier 2 and show saying one or two of the keywords that will trigger specific audio responses, as well as the email sending keyword, and show the received email.
 
 **4. For the AMBER alert system, make periodic GET requests when the user is in the active use state to get a list of people in danger, and process these results so that nearby users who are in danger will have their relative locations displayed on the ESP32.**
 
-Show the current contents of the database, and show the radar-like display on the ESP32 when there is a nearby user who has had their information posted onto the AMBER alert database so that the position of the user is displayed in the center, with the user in distress being represented by a dot showing their relative position to the user.
+    Show the current contents of the database, and show the radar-like display on the ESP32 when there is a nearby user who has had their information posted onto the AMBER alert database so that the position of the user is displayed in the center, with the user in distress being represented by a dot showing their relative position to the user.
 
 **5. Allow for user authentication and a more secure logging in process so that we will be able to remember user information, such as email recipients and keywords, between each session of use of the device.**
 
@@ -460,23 +460,23 @@ Week 3
 
 **1. Integrate all tier responses, user login, heart rate sensor, GPS module, MP3 player, and buzzer into a working product.**
 
-Demonstrate all of the tiers by switching from the active use state to each of the tiers and switching back.
+    Demonstrate all of the tiers by switching from the active use state to each of the tiers and switching back.
 
 **2. Create detailed setup instructions for the user so that they will be able to use the product upon first receiving it.**
 
-On the ESP32, go from the welcome screen state to the setup instructions, and go through the pages one by one.
+    On the ESP32, go from the welcome screen state to the setup instructions, and go through the pages one by one.
 
 **3. Improve the visual displays inside the states TIER_1, TIER_2, RECORD_SPEECH, TEXT_TO_SPEECH, SENDING_EMAIL, POST_ALERT, and SUCCESSFUL_POST – these are all of the states used in the three tier responses – so that they accurately inform the user of the action currently being carried out.**
 
-In these tiers, show what is displayed for each tier and that it gives a clear sense of the purpose of each tier as well.
+    In these tiers, show what is displayed for each tier and that it gives a clear sense of the purpose of each tier as well.
 
 **4. Improve the reliability of the heart rate sensor through software calibration during setup.**
 
-Show the user's measured average heartbeat while inside the active use state.
+    Show the user's measured average heartbeat while inside the active use state.
 
 **5. Provide the user with the functionality of changing their username after logging in.**
 
-Show the user logging in and changing their username. Upon restarting the ESP32, they will be able to log in with the new username.
+    Show the user logging in and changing their username. Upon restarting the ESP32, they will be able to log in with the new username.
 
 
 Week 4
@@ -484,21 +484,21 @@ Week 4
 
 **1. Finish all documentation -- source code, code overview, and diagrams, and set up multiple working devices.**
 
-Submit all final documentation to the shared Google Drive folder. There is no video deliverable for this part. 
+    Submit all final documentation to the shared Google Drive folder. There is no video deliverable for this part. 
 
-Website Link: https://608dev-2.net/sandbox/sc/team63/finalreport/finalreport.md.html 
+    Website Link: https://608dev-2.net/sandbox/sc/team63/finalreport/finalreport.md.html 
 
 **2. Record and edit the final demonstration video for the completed product.**
 
-Submit the video showcasing all tier capabilities as well as each part's capabilities and narrate what is happening. 
+    Submit the video showcasing all tier capabilities as well as each part's capabilities and narrate what is happening. 
 
 **3. Clean up the code for the ESP32 state machine and the code for the Python files on the server as well as the HTML form.**
 
-Comment the code and remove any unnecessary parts, and submit the well-organized, documented code to the shared Google Drive folder. There is no video deliverable for this part. 
+    Comment the code and remove any unnecessary parts, and submit the well-organized, documented code to the shared Google Drive folder. There is no video deliverable for this part. 
 
 **4. Add an initial state informing users of how to use the keyboard and what the button presses correspond to.**
 
-Show restarting the ESP and this initial state being the first page to show up, telling users the purposes of each button in using the keyboard to enter their username and password.
+    Show restarting the ESP and this initial state being the first page to show up, telling users the purposes of each button in using the keyboard to enter their username and password.
 
 
 Team Members
