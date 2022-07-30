@@ -53,7 +53,7 @@ Parts List
 
 System Block Diagram
 -------------------------------------------------------------------------------
-![System Block Diagram](system_block_diagram.jpg)
+![System Block Diagram](Images-Videos/system_block_diagram.jpg)
 
 Wiring Setup 
 -------------------------------------------------------------------------------
