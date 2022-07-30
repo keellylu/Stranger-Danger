@@ -410,31 +410,21 @@ Week 1
 Demonstrate going from the start up state to the setup instructions, settings, and active use state; from the active use state, 
 go to each of the three tiers and back, and show logging off - returning to the start screen - as well. 
 
-[![State Machine Deliverable](https://img.youtube.com/vi/3ZzbTomLDuk/0.jpg)](https://www.youtube.com/watch?v=3ZzbTomLDuk)
-
 **Create the Python function for sending emails (to the emergency contact stored in the user info database) upon POST request.**
 
 Make a request through Postman and show the received email in our inbox with a hardcoded message.
-
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/LKjUzyW9Lz4/0.jpg)](https://www.youtube.com/watch?v=LKjUzyW9Lz4)
 
 **Set up the database for storing user information and create an HTML form that also allows users to submit/update their preferences and adds it to the database.**
 
 Demonstrate the ESP32 sending a POST request to a Python file containing the user's username, email recipient, email body, and keyword when we first enter the active usage state; if the username is already in the database, we want to replace the current info we have on the user with the new info; also show entering the information into the HTML form and then printing the results of the database afterwards.
 
-[![User Information POST Deliverable](https://img.youtube.com/vi/_BY2B9Psrk0/0.jpg)](https://www.youtube.com/watch?v=_BY2B9Psrk0)
-
 **Create a functioning "keyboard" display for the LCD that allows the user to enter in their information on the ESP32.**
 
 Show the user entering in all of their information - username, email recipient, email body, keyword - before sending the information up to the database.
 
-[![Keyboard Deliverable - Same Video as State Machine](https://img.youtube.com/vi/3ZzbTomLDuk/0.jpg)](https://www.youtube.com/watch?v=3ZzbTomLDuk)
-
 **Be able to flash the LED light on the device as is necessary for the first tier of the alarm response.**
 
 Complete the first tier system with siren and flashing lights. Demonstrate the flashing of the LED in the SOS Morse Code pattern – we will test both the LED on the ESP32 itself and the LED given in the Smart Lamp design exercise to determine which is brighter/better at attracting people’s attention.
-
-![Tier 1 Deliverable](Images-Videos/siren.mp4)
 
 **Find all necessary hardware components and their sellers.**
 
@@ -444,8 +434,6 @@ Upload the information to the spreadsheet so that we can get all of our needed p
 
 Show posting to the AMBER alert database via Postman and, when doing a get request from it again via Postman, the database should have the information of the people who posted.
 
-[![AMBER Alert Database Deliverable](https://img.youtube.com/vi/AF7au1CojdE/0.jpg)](https://www.youtube.com/watch?v=AF7au1CojdE)
-
 Week 2
 -------------------------------------------------------------------------------
 
@@ -453,29 +441,19 @@ Week 2
 
 Show the heart rate sensor measuring the user's heart rate and printing the heart rate values in the serial monitor, and, when the user's heart rate passes the specified threshold, the ESP32 now shows that it has moved to the AMBER alert state.
 
-![Heart Rate Sensor Deliverable](Images-Videos/heart_rate.mp4)
-
 **Plan and record the audios necessary for simulating a phone call between two parties and upload these audios to the MP3 players.**
 
 Using the MP3 player's speaker, play two of the recorded audios, and show which audios correspond to which spoken keywords. 
-
-[![MP3 Recorded Audios Deliverable](https://img.youtube.com/vi/IqF0gFC54i0/0.jpg)](https://www.youtube.com/watch?v=IqF0gFC54i0)
 
 **Have the ESP32 record what the user is saying, and, through Google's text-to-speech API, retrieve the recorded message before playing the appropriate message response and sending an email to the specified recipient if needed.**
 
 Switch to Tier 2 and show saying one or two of the keywords that will trigger specific audio responses, as well as the email sending keyword, and show the received email.
 
-[![Google Speech-to-Text API Deliverable](https://img.youtube.com/vi/3Zru04lPuMw/0.jpg)](https://www.youtube.com/watch?v=3Zru04lPuMw)
-
 **For the AMBER alert system, make periodic GET requests when the user is in the active use state to get a list of people in danger, and process these results so that nearby users who are in danger will have their relative locations displayed on the ESP32.**
 
 Show the current contents of the database, and show the radar-like display on the ESP32 when there is a nearby user who has had their information posted onto the AMBER alert database so that the position of the user is displayed in the center, with the user in distress being represented by a dot showing their relative position to the user.
 
-[![AMBER Alert GET Requests Deliverable](https://img.youtube.com/vi/T_g-sfqZ1_c/0.jpg)](https://www.youtube.com/watch?v=T_g-sfqZ1_c)
-
 **Allow for user authentication and a more secure logging in process so that we will be able to remember user information, such as email recipients and keywords, between each session of use of the device.**
-
-[![User Authentication Deliverable](https://img.youtube.com/vi/dFDPvmynsoo/0.jpg)](https://www.youtube.com/watch?v=dFDPvmynsoo)
 
 Week 3
 -------------------------------------------------------------------------------
@@ -484,39 +462,21 @@ Week 3
 
 Demonstrate all of the tiers by switching from the active use state to each of the tiers and switching back.
 
-[![Fully Integrated Device Deliverable](https://img.youtube.com/vi/JL1if_bdiu4/0.jpg)](https://www.youtube.com/watch?v=JL1if_bdiu4)
-
 **Create detailed setup instructions for the user so that they will be able to use the product upon first receiving it.**
 
 On the ESP32, go from the welcome screen state to the setup instructions, and go through the pages one by one.
-
-![Setup Instructions Deliverable](Images-Videos/setup.mp4)
-<video src='your URL here' width=180/>
-
 
 **Improve the visual displays inside the states TIER_1, TIER_2, RECORD_SPEECH, TEXT_TO_SPEECH, SENDING_EMAIL, POST_ALERT, and SUCCESSFUL_POST – these are all of the states used in the three tier responses – so that they accurately inform the user of the action currently being carried out.**
 
 In these tiers, show what is displayed for each tier and that it gives a clear sense of the purpose of each tier as well.
 
-[![AMBER Alert Online Display Deliverable](https://img.youtube.com/vi/mfbnM2WzZPI/0.jpg)](https://www.youtube.com/watch?v=mfbnM2WzZPI)
-
-[![Improved Tier 2 Display Deliverable](https://img.youtube.com/vi/jevzMpoMI1o/0.jpg)](https://www.youtube.com/watch?v=jevzMpoMI1o)
-
 **Improve the reliability of the heart rate sensor through software calibration during setup.**
 
 Show the user's measured average heartbeat while inside the active use state.
 
-[![Heart Rate Sensor Calibration Deliverable](https://img.youtube.com/vi/T_WTVdrZ6WA/0.jpg)](https://www.youtube.com/watch?v=T_WTVdrZ6WA)
-
 **Provide the user with the functionality of changing their username after logging in.**
 
 Show the user logging in and changing their username. Upon restarting the ESP32, they will be able to log in with the new username.
-
-<video src='https://user-images.githubusercontent.com/95010893/181896047-4e2a616e-f3b8-48a2-a521-d980c84ee6e0.mp4' width=180/>
-
-
-
-
 
 
 Week 4
@@ -532,8 +492,6 @@ Website Link: https://608dev-2.net/sandbox/sc/team63/finalreport/finalreport.md.
 
 Submit the video showcasing all tier capabilities as well as each part's capabilities and narrate what is happening. 
 
-[![Full Video Demonstration](https://img.youtube.com/vi/PvWO8aeOt7o/0.jpg)](https://www.youtube.com/watch?v=PvWO8aeOt7o)
-
 **Clean up the code for the ESP32 state machine and the code for the Python files on the server as well as the HTML form.**
 
 Comment the code and remove any unnecessary parts, and submit the well-organized, documented code to the shared Google Drive folder. There is no video deliverable for this part. 
@@ -541,9 +499,6 @@ Comment the code and remove any unnecessary parts, and submit the well-organized
 **Add an initial state informing users of how to use the keyboard and what the button presses correspond to.**
 
 Show restarting the ESP and this initial state being the first page to show up, telling users the purposes of each button in using the keyboard to enter their username and password.
-
-<video src='https://user-images.githubusercontent.com/95010893/181893891-ca147b16-544d-422b-99cb-d478549ab7e3.mp4' width=180/>
-
 
 
 Team Members
