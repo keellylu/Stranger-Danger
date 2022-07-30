@@ -491,6 +491,8 @@ Demonstrate all of the tiers by switching from the active use state to each of t
 On the ESP32, go from the welcome screen state to the setup instructions, and go through the pages one by one.
 
 ![Setup Instructions Deliverable](Images-Videos/setup.mp4)
+<video src='your URL here' width=180/>
+
 
 **Improve the visual displays inside the states TIER_1, TIER_2, RECORD_SPEECH, TEXT_TO_SPEECH, SENDING_EMAIL, POST_ALERT, and SUCCESSFUL_POST – these are all of the states used in the three tier responses – so that they accurately inform the user of the action currently being carried out.**
 
@@ -504,13 +506,18 @@ In these tiers, show what is displayed for each tier and that it gives a clear s
 
 Show the user's measured average heartbeat while inside the active use state.
 
-![Heart Rate Sensor Calibration Deliverable](Images-Videos/heart_calibration.mp4)
+[![Heart Rate Sensor Calibration Deliverable](https://img.youtube.com/vi/T_WTVdrZ6WA/0.jpg)](https://www.youtube.com/watch?v=T_WTVdrZ6WA)
 
 **Provide the user with the functionality of changing their username after logging in.**
 
 Show the user logging in and changing their username. Upon restarting the ESP32, they will be able to log in with the new username.
 
-![Username Change Deliverable](Images-Videos/username_change.mp4)
+<video src='https://user-images.githubusercontent.com/95010893/181896047-4e2a616e-f3b8-48a2-a521-d980c84ee6e0.mp4' width=180/>
+
+
+
+
+
 
 Week 4
 -------------------------------------------------------------------------------
@@ -535,7 +542,6 @@ Comment the code and remove any unnecessary parts, and submit the well-organized
 
 Show restarting the ESP and this initial state being the first page to show up, telling users the purposes of each button in using the keyboard to enter their username and password.
 
-![Button and Keyboard Instructions Deliverable](https://user-images.githubusercontent.com/95010893/181893891-ca147b16-544d-422b-99cb-d478549ab7e3.mp4)
 <video src='https://user-images.githubusercontent.com/95010893/181893891-ca147b16-544d-422b-99cb-d478549ab7e3.mp4' width=180/>
 
 
