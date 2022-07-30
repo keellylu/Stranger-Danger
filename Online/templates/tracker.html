@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>My Map</title>
+	
+	<style> 
+	#map {
+    height: 35vw;
+    width: 70vw;
+    background-color: grey;
+	}
+	
+	body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45vw;
+    font-family: "Questrial", monospace;
+	}
+	</style>
+	
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDwjawoC-xTlDh4O3M3wT79lZfPYnbIDQ&callback=initMap"
+    type="text/javascript"></script>
+	
+	
+	
+	<script> 
+    function initMap() {
+		var points = JSON.parse('{{ data|safe }}'); 
+		
+		/*Create map*/
+        var map = new google.maps.Map(document.getElementById('map'), {         
+		center: new google.maps.LatLng(points[0].lat, points[0].lng),             
+		zoom: 4                                                            
+		});                                                                     
+        
+		/*Add marker for current user's location*/
+		var marker = new google.maps.Marker({                                   
+			position: new google.maps.LatLng(points[0].lat, points[0].lng),   
+			map: map,
+			icon: "{{url_for('static', filename='redx.png')}}"
+		}); 
+		google.maps.event.addListener(marker, 'click', (function (marker) {
+			return function () {
+				var infowindow = new google.maps.InfoWindow({content: `Latitude: ${points[0].lat}<br>Longitude: ${points[0].lng}`});	
+				infowindow.open({anchor: marker, map});
+			}
+		})(marker));	
+		
+		/*Add marker for each nearby user in danger*/
+		for (var i = 1; i < points.length; i++) {
+		
+			marker = new google.maps.Marker({                                   
+				position: new google.maps.LatLng(points[i].lat, points[i].lng),   
+				map: map,
+			});  
+			
+			google.maps.event.addListener(marker, 'click', (function (marker, i) {
+				return function () {
+					var infowindow = new google.maps.InfoWindow({content: `Latitude: ${points[i].lat}<br>Longitude: ${points[i].lng}`});	
+					infowindow.open({anchor: marker, map});
+				}
+			})(marker, i));	
+		}
+    }
+    </script>
+</head>
+
+<body>
+<div class="container">
+    <h1 id="test">You are the X: <span style="float:right; background-color: black; padding: 10px 15px; border-radius: 5px;">
+	<a href="/location" style = "color: white; text-decoration: none;">BACK</a></span></h1>
+	<br>
+    <div id="map"></div>
+</div>
+</body>
+</html>
+

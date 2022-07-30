@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: black;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Questrial", monospace;
+	background-image: url('sparkle1.gif');
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+
+	input, 
+	select, 
+	placeholder, 
+	textarea {
+    width: 100%;
+    padding: 3px;
+    outline: none;
+	font-size: 100%;
+	font-family: "Questrial", monospace;
+  }
+  select{
+	width: 100%
+  }
+  
+  input, label {
+    display:flex;
+	flex-direction:column;
+  }
+  label {
+    line-height: 1.65rem;
+  }
+  
+  .btn {
+	color: black;
+	float: right;
+	margin-top: 1rem;
+	font-family: Andale Mono, monospace;
+	font-weight: bold;
+	display: flex;
+	line-height: 1.6;
+  }
+
+  input[type="submit"] {
+   float: left;
+   padding: 3px;
+   width: 32%;
+   margin-top: 1rem;
+   font-family: Andale Mono, monospace;
+   font-weight: bold;
+   background-color: #F2F3F4;
+   box-shadow: 0.5px 1px;
+   border-radius: 5px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  }
+
+ fieldset {
+   padding: 20px 40px;
+   background-color: #F2F3F4;
+   box-shadow: 3px 6px;
+   font-size: 10px;
+   border-radius: 10px;
+   display: inline-block
+  }

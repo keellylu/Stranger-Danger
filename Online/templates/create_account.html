@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='form_formatting.css') }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<form id="myForm" action="https://608dev-2.net/sandbox/sc/team63/userinfo/server_secure.py" method="POST" enctype="application/x-www-form-urlencoded">
+  <fieldset>
+        <legend> <span><a href="/location">TRACKER</a></span> &#9734; <span><a href="/index">UPDATE INFO</a></span> &#9734; <b>[CREATE ACCOUNT]</b></legend>
+        <div class="form-control">
+          <label for="user">- Enter Username -</label>
+          <input 
+			type="user" 
+			id="user" 
+			name="user" 
+			placeholder="" 
+			required 
+		  />
+        </div>
+		
+		<div class="form-control">
+          <label for="user">- Enter Password -</label>
+          <input 
+			type="password" 
+			id="password" 
+			name="password" 
+			placeholder="" 
+			required 
+		  />
+        </div>
+		
+		
+		<input type="text" id="action" name = "action"/>
+		<script type="text/javascript">
+		document.getElementById("action").style.display = "none";
+		document.getElementById('action').value = 'set_settings';
+		</script>
+		
+		<input type="text" id="account" name = "account"/>
+		<script type="text/javascript">
+		document.getElementById("account").style.display = "none";
+		document.getElementById('account').value = 'create';
+		</script>
+		
+		<input type="submit" value="SUBMIT" class="submit-btn" />
+	</fieldset>
+</form>
+
+</body>
+</html>

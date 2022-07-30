@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='form_formatting.css') }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<form id="myForm" action="/verify" method="POST">
+  <fieldset>
+        <legend> <b>[TRACKER]</b> &#9734; <span><a href="/index">UPDATE INFO</a></span> &#9734; <span><a href="/create_account">CREATE ACCOUNT</a></span> </legend>
+        <div class="form-control">
+          <label for="user">- Enter Username -</label>
+          <input 
+			type="user" 
+			id="user" 
+			name="user" 
+			placeholder="" 
+			required 
+		  />
+        </div>
+		
+		<div class="form-control">
+          <label for="user">- Location (DMS) -</label>
+          <input 
+			type="location" 
+			id="location" 
+			name="location" 
+			placeholder="" 
+			required 
+		  />
+        </div>
+		
+		
+		<input type="text" id="action" name = "action"/>
+		<script type="text/javascript">
+		document.getElementById("action").style.display = "none";
+		document.getElementById('action').value = 'online';
+		</script>
+		
+		<input type="submit" value="SUBMIT" class="submit-btn" />
+	</fieldset>
+</form>
+
+</body>
+</html>
