@@ -28,7 +28,7 @@ responsive measures.
 
 Video Demonstration
 -------------------------------------------------------------------------------
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PvWO8aeOt7o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/PvWO8aeOt7o/0.jpg)](https://www.youtube.com/watch?v=PvWO8aeOt7o)
 
 
 Hardware Documentation
