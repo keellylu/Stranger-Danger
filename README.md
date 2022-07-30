@@ -484,8 +484,7 @@ Week 3
 
 Demonstrate all of the tiers by switching from the active use state to each of the tiers and switching back.
 
-![Fully Integrated Device Deliverable]
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/JL1if_bdiu4/0.jpg)](https://www.youtube.com/watch?v=JL1if_bdiu4)
+[![Fully Integrated Device Deliverable](https://img.youtube.com/vi/JL1if_bdiu4/0.jpg)](https://www.youtube.com/watch?v=JL1if_bdiu4)
 
 **Create detailed setup instructions for the user so that they will be able to use the product upon first receiving it.**
 
@@ -497,11 +496,9 @@ On the ESP32, go from the welcome screen state to the setup instructions, and go
 
 In these tiers, show what is displayed for each tier and that it gives a clear sense of the purpose of each tier as well.
 
-![AMBER Alert Online Display Deliverable]
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/mfbnM2WzZPI/0.jpg)](https://www.youtube.com/watch?v=mfbnM2WzZPI)
+[![AMBER Alert Online Display Deliverable](https://img.youtube.com/vi/mfbnM2WzZPI/0.jpg)](https://www.youtube.com/watch?v=mfbnM2WzZPI)
 
-![Improved Tier 2 Display Deliverable]
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/jevzMpoMI1o/0.jpg)](https://www.youtube.com/watch?v=jevzMpoMI1o)
+[![Improved Tier 2 Display Deliverable](https://img.youtube.com/vi/jevzMpoMI1o/0.jpg)](https://www.youtube.com/watch?v=jevzMpoMI1o)
 
 **Improve the reliability of the heart rate sensor through software calibration during setup.**
 
@@ -528,8 +525,7 @@ Website Link: https://608dev-2.net/sandbox/sc/team63/finalreport/finalreport.md.
 
 Submit the video showcasing all tier capabilities as well as each part's capabilities and narrate what is happening. 
 
-![Full Video Demonstration]
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/PvWO8aeOt7o/0.jpg)](https://www.youtube.com/watch?v=PvWO8aeOt7o)
+[![Full Video Demonstration](https://img.youtube.com/vi/PvWO8aeOt7o/0.jpg)](https://www.youtube.com/watch?v=PvWO8aeOt7o)
 
 **Clean up the code for the ESP32 state machine and the code for the Python files on the server as well as the HTML form.**
 
