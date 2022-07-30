@@ -453,7 +453,7 @@ Week 2
 
 Show the heart rate sensor measuring the user's heart rate and printing the heart rate values in the serial monitor, and, when the user's heart rate passes the specified threshold, the ESP32 now shows that it has moved to the AMBER alert state.
 
-![Heart Rate Sensor Deliverable](heart_rate.mp4)
+![Heart Rate Sensor Deliverable](Images-Videos/heart_rate.mp4)
 
 **Plan and record the audios necessary for simulating a phone call between two parties and upload these audios to the MP3 players.**
 
