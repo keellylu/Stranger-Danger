@@ -410,25 +410,25 @@ Week 1
 Demonstrate going from the start up state to the setup instructions, settings, and active use state; from the active use state, 
 go to each of the three tiers and back, and show logging off - returning to the start screen - as well. 
 
-![State Machine Deliverable](https://youtu.be/3ZzbTomLDuk)
+[![State Machine Deliverable](https://img.youtube.com/vi/3ZzbTomLDuk/0.jpg)](https://www.youtube.com/watch?v=3ZzbTomLDuk)
 
 **Create the Python function for sending emails (to the emergency contact stored in the user info database) upon POST request.**
 
 Make a request through Postman and show the received email in our inbox with a hardcoded message.
 
-![Email Sending Deliverable](https://youtu.be/LKjUzyW9Lz4)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/LKjUzyW9Lz4/0.jpg)](https://www.youtube.com/watch?v=LKjUzyW9Lz4)
 
 **Set up the database for storing user information and create an HTML form that also allows users to submit/update their preferences and adds it to the database.**
 
 Demonstrate the ESP32 sending a POST request to a Python file containing the user's username, email recipient, email body, and keyword when we first enter the active usage state; if the username is already in the database, we want to replace the current info we have on the user with the new info; also show entering the information into the HTML form and then printing the results of the database afterwards.
 
-![User Information POST Deliverable](https://youtu.be/_BY2B9Psrk0)
+[![User Information POST Deliverable](https://img.youtube.com/vi/_BY2B9Psrk0/0.jpg)](https://www.youtube.com/watch?v=_BY2B9Psrk0)
 
 **Create a functioning "keyboard" display for the LCD that allows the user to enter in their information on the ESP32.**
 
 Show the user entering in all of their information - username, email recipient, email body, keyword - before sending the information up to the database.
 
-![Keyboard Deliverable - Same Video as State Machine](https://youtu.be/3ZzbTomLDuk)
+[![Keyboard Deliverable - Same Video as State Machine](https://img.youtube.com/vi/3ZzbTomLDuk/0.jpg)](https://www.youtube.com/watch?v=3ZzbTomLDuk)
 
 **Be able to flash the LED light on the device as is necessary for the first tier of the alarm response.**
 
@@ -444,7 +444,7 @@ Upload the information to the spreadsheet so that we can get all of our needed p
 
 Show posting to the AMBER alert database via Postman and, when doing a get request from it again via Postman, the database should have the information of the people who posted.
 
-![AMBER Alert Database Deliverable](https://www.youtube.com/watch?v=AF7au1CojdE)
+[![AMBER Alert Database Deliverable](https://img.youtube.com/vi/AF7au1CojdE/0.jpg)](https://www.youtube.com/watch?v=AF7au1CojdE)
 
 Week 2
 -------------------------------------------------------------------------------
@@ -459,23 +459,23 @@ Show the heart rate sensor measuring the user's heart rate and printing the hear
 
 Using the MP3 player's speaker, play two of the recorded audios, and show which audios correspond to which spoken keywords. 
 
-![MP3 Recorded Audios Deliverable](https://youtu.be/IqF0gFC54i0)
+[![MP3 Recorded Audios Deliverable](https://img.youtube.com/vi/IqF0gFC54i0/0.jpg)](https://www.youtube.com/watch?v=IqF0gFC54i0)
 
 **Have the ESP32 record what the user is saying, and, through Google's text-to-speech API, retrieve the recorded message before playing the appropriate message response and sending an email to the specified recipient if needed.**
 
 Switch to Tier 2 and show saying one or two of the keywords that will trigger specific audio responses, as well as the email sending keyword, and show the received email.
 
-![Google Speech-to-Text API Deliverable](https://youtu.be/3Zru04lPuMw)
+[![Google Speech-to-Text API Deliverable](https://img.youtube.com/vi/3Zru04lPuMw/0.jpg)](https://www.youtube.com/watch?v=3Zru04lPuMw)
 
 **For the AMBER alert system, make periodic GET requests when the user is in the active use state to get a list of people in danger, and process these results so that nearby users who are in danger will have their relative locations displayed on the ESP32.**
 
 Show the current contents of the database, and show the radar-like display on the ESP32 when there is a nearby user who has had their information posted onto the AMBER alert database so that the position of the user is displayed in the center, with the user in distress being represented by a dot showing their relative position to the user.
 
-![AMBER Alert GET Requests Deliverable](https://youtu.be/T_g-sfqZ1_c)
+[![AMBER Alert GET Requests Deliverable](https://img.youtube.com/vi/T_g-sfqZ1_c/0.jpg)](https://www.youtube.com/watch?v=T_g-sfqZ1_c)
 
 **Allow for user authentication and a more secure logging in process so that we will be able to remember user information, such as email recipients and keywords, between each session of use of the device.**
 
-![User Authentication Deliverable](https://www.youtube.com/watch?v=dFDPvmynsoo)
+[![User Authentication Deliverable](https://img.youtube.com/vi/dFDPvmynsoo/0.jpg)](https://www.youtube.com/watch?v=dFDPvmynsoo)
 
 Week 3
 -------------------------------------------------------------------------------
