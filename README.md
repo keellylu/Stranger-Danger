@@ -536,7 +536,7 @@ Comment the code and remove any unnecessary parts, and submit the well-organized
 Show restarting the ESP and this initial state being the first page to show up, telling users the purposes of each button in using the keyboard to enter their username and password.
 
 ![Button and Keyboard Instructions Deliverable](https://user-images.githubusercontent.com/95010893/181893891-ca147b16-544d-422b-99cb-d478549ab7e3.mp4)
-
+<video src='https://user-images.githubusercontent.com/95010893/181893891-ca147b16-544d-422b-99cb-d478549ab7e3.mp4' width=180/>
 
 
 
