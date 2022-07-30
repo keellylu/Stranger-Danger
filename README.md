@@ -57,14 +57,14 @@ System Block Diagram
 
 Wiring Setup 
 -------------------------------------------------------------------------------
-![Wiring Setup](wiring_setup.jpg)
+![Wiring Setup](Images-Videos/wiring_setup.jpg)
 
 Code Documentation
 ===============================================================================
 
 State Machine Diagram
 -------------------------------------------------------------------------------
-![State Machine Diagram](state_machine_diagram.jpg)
+![State Machine Diagram](Images-Videos/state_machine_diagram.jpg)
 
 ESP32 Code
 -------------------------------------------------------------------------------
@@ -335,7 +335,7 @@ to efficiently make an account or update their user info. The create account tab
 and the update info tab lets users enter the other parameters. Upon pressing the submit button, a POST request is sent to the 608dev-2 
 server so the user info database can be updated. 
 
-![HTML Form Display](html_form.jpg)
+![HTML Form Display](Images-Videos/html_form.jpg)
 
 **Location Tracker**
 
@@ -434,7 +434,7 @@ Show the user entering in all of their information - username, email recipient, 
 
 Complete the first tier system with siren and flashing lights. Demonstrate the flashing of the LED in the SOS Morse Code pattern – we will test both the LED on the ESP32 itself and the LED given in the Smart Lamp design exercise to determine which is brighter/better at attracting people’s attention.
 
-![Tier 1 Deliverable](siren.mp4)
+![Tier 1 Deliverable](Images-Videos/siren.mp4)
 
 **Find all necessary hardware components and their sellers.**
 
@@ -490,7 +490,7 @@ Demonstrate all of the tiers by switching from the active use state to each of t
 
 On the ESP32, go from the welcome screen state to the setup instructions, and go through the pages one by one.
 
-![Setup Instructions Deliverable](setup.mp4)
+![Setup Instructions Deliverable](Images-Videos/setup.mp4)
 
 **Improve the visual displays inside the states TIER_1, TIER_2, RECORD_SPEECH, TEXT_TO_SPEECH, SENDING_EMAIL, POST_ALERT, and SUCCESSFUL_POST – these are all of the states used in the three tier responses – so that they accurately inform the user of the action currently being carried out.**
 
@@ -504,13 +504,13 @@ In these tiers, show what is displayed for each tier and that it gives a clear s
 
 Show the user's measured average heartbeat while inside the active use state.
 
-![Heart Rate Sensor Calibration Deliverable](heart_calibration.mp4)
+![Heart Rate Sensor Calibration Deliverable](Images-Videos/heart_calibration.mp4)
 
 **Provide the user with the functionality of changing their username after logging in.**
 
 Show the user logging in and changing their username. Upon restarting the ESP32, they will be able to log in with the new username.
 
-![Username Change Deliverable](username_change.mp4)
+![Username Change Deliverable](Images-Videos/username_change.mp4)
 
 Week 4
 -------------------------------------------------------------------------------
@@ -535,7 +535,7 @@ Comment the code and remove any unnecessary parts, and submit the well-organized
 
 Show restarting the ESP and this initial state being the first page to show up, telling users the purposes of each button in using the keyboard to enter their username and password.
 
-![Button and Keyboard Instructions Deliverable](initial_instructions.mp4)
+![Button and Keyboard Instructions Deliverable](Images-Videos/initial_instructions.mp4)
 
 Team Members
 ===============================================================================
