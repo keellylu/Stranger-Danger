@@ -53,11 +53,11 @@ Parts List
 
 System Block Diagram
 -------------------------------------------------------------------------------
-![System Block Diagram](system_block_diagram.jpg)
+![System Block Diagram](https://drive.google.com/drive/u/0/folders/1IzADs0NZRM4__5hk9AeEKUfg7wg2A5iS)
 
 Wiring Setup 
 -------------------------------------------------------------------------------
-![Wiring Setup](wiring_setup.jpg)
+![Wiring Setup](https://drive.google.com/drive/u/0/folders/1IzADs0NZRM4__5hk9AeEKUfg7wg2A5iS)
 
 Code Documentation
 ===============================================================================
